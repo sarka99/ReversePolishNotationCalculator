@@ -15,6 +15,7 @@ public class RpmCalculatorApplication {
 		SpringApplication.run(RpmCalculatorApplication.class, args);
 		System.out.println("main program run");
 
+
 	}
 
 }

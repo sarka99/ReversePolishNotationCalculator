@@ -43,6 +43,13 @@ public class Stack<T> {
 
         return elmntToPop;
     }
+    public void clear(){
+        for (int i = 0; i < stack.length;i++){
+            stack[i] = null;
+        }
+        top = -1;
+    }
+
     public String toString() {
         return "StackStatic{" +
                 "stack=" + Arrays.toString(stack) +
@@ -50,4 +57,5 @@ public class Stack<T> {
                 ", top=" + top +
                 '}';
     }
+
 }
